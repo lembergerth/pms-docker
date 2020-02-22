@@ -19,7 +19,7 @@ function getVersionInfo {
     channel=8
   fi
   
-  local url="https://plex.tv/downloads/details/1?build=linux-ubuntu-x86_64&channel=${channel}&distro=ubuntu"
+  local url="https://plex.tv/downloads/details/1?build=linux-annapurnatrans-arm7&channel=${channel}&distro=readynas6"
   if [ ${tokenNeeded} -gt 0 ]; then
     url="${url}&X-Plex-Token=${token}"
   fi
